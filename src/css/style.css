@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grabbing {
+    cursor: grabbing;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
