@@ -44,8 +44,13 @@ function watchTask() {
     gulp.watch('./src/**/*.html', htmlTask);
 }
 
-// Default Gulp task
+
 exports.default = gulp.series(
     gulp.parallel(cssTask, jsTask, imageTask, htmlTask),
     watchTask
+);
+
+
+exports.build = gulp.series(
+    gulp.parallel(cssTask, jsTask, imageTask, htmlTask)
 );
