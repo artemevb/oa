@@ -744,7 +744,9 @@ video {
 .h-\[100px\] {
   height: 100px;
 }
-
+.h-\[150px\] {
+  height: 170px;
+}
 .h-\[200px\] {
   height: 200px;
 }
