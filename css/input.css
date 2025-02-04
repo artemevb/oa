@@ -1,4 +1,4 @@
-/*
+/* 
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 
@@ -855,6 +855,9 @@ video {
 
 .w-\[32px\] {
   width: 32px;
+}
+.w-\[80px\] {
+  width: 80px;
 }
 
 .w-\[400px\] {
